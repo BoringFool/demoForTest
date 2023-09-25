@@ -1,0 +1,619 @@
+INFO    2022-11-14 21:18:20,184 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-14 21:18:20,185 [main] redis.RedisConnect  - false
+INFO    2022-11-14 21:18:20,185 [main] redis.RedisConnect  - true
+INFO    2022-11-14 21:18:20,185 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:18:20,185 [main] redis.RedisConnect  - []
+INFO    2022-11-14 21:18:20,187 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-14 21:18:20,187 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-14 21:18:20,187 [main] redis.RedisConnect  - 去重
+INFO    2022-11-14 21:18:20,187 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:18:20,189 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-14 21:18:20,189 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-14 21:18:20,189 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:19:16,062 [main] redis.RedisConnect  - 长度：14
+INFO    2022-11-14 21:19:16,063 [main] redis.RedisConnect  - [element-3, element-2, element-1, element-1, element-1, element-2, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5]
+INFO    2022-11-14 21:19:16,063 [main] redis.RedisConnect  - [element-2, element-1, element-1, element-1, element-2, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5]
+INFO    2022-11-14 21:19:16,064 [main] redis.RedisConnect  - [element-2, element-1, element-1, element-2, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5]
+INFO    2022-11-14 21:19:16,065 [main] redis.RedisConnect  - [element-2, element-1, element-1, element-2, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5, element-6]
+INFO    2022-11-14 21:19:16,065 [main] redis.RedisConnect  - element-6
+INFO    2022-11-14 21:19:16,066 [main] redis.RedisConnect  - element-2
+INFO    2022-11-14 21:19:16,066 [main] redis.RedisConnect  - [element-1, element-1, element-2, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5, element-4, element-5]
+INFO    2022-11-14 21:19:16,068 [main] redis.RedisConnect  - PONG
+INFO    2022-11-14 21:19:16,068 [main] redis.RedisConnect  - 
+INFO    2022-11-14 21:19:16,073 [main] redis.RedisConnect  - [{testStringSet}m1, {testStringSet}m2]
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - false
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - true
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - []
+INFO    2022-11-14 21:19:16,075 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - 去重
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - 去重
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-14 21:19:16,076 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:19:16,079 [main] redis.RedisConnect  - m1
+INFO    2022-11-14 21:19:16,079 [main] redis.RedisConnect  - 
+INFO    2022-11-14 21:26:12,586 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-14 21:26:12,587 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-14 21:26:12,588 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-14 21:26:12,588 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-14 21:26:12,590 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-14 21:26:12,590 [main] redis.RedisConnect  - element-6
+INFO    2022-11-14 21:26:12,590 [main] redis.RedisConnect  - element-2
+INFO    2022-11-14 21:26:12,590 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-14 21:26:12,596 [main] redis.RedisConnect  - PONG
+INFO    2022-11-14 21:26:12,596 [main] redis.RedisConnect  - 
+INFO    2022-11-14 21:26:12,599 [main] redis.RedisConnect  - []
+INFO    2022-11-14 21:26:12,601 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-14 21:26:12,601 [main] redis.RedisConnect  - false
+INFO    2022-11-14 21:26:12,601 [main] redis.RedisConnect  - true
+INFO    2022-11-14 21:26:12,601 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - []
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - 无序
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - 去重
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:26:12,602 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-14 21:26:12,603 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-14 21:26:12,603 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-14 21:26:12,606 [main] redis.RedisConnect  - m1
+INFO    2022-11-14 21:26:12,606 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:04:17,307 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:20:22,575 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:20:22,576 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:20:22,577 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:20:22,578 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:20:22,578 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:20:22,578 [main] redis.RedisConnect  - count:2
+INFO    2022-11-15 19:20:22,578 [main] redis.RedisConnect  - rank:2
+INFO    2022-11-15 19:21:50,620 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:21:50,621 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:21:50,622 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:21:50,623 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:21:50,623 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:21:50,623 [main] redis.RedisConnect  - count:2
+INFO    2022-11-15 19:21:50,623 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:22:05,665 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:22:05,666 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:22:05,668 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:22:05,668 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:22:05,669 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:22:05,669 [main] redis.RedisConnect  - count:0
+INFO    2022-11-15 19:22:05,669 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:22:14,663 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:22:14,664 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:22:14,665 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:22:14,665 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:22:14,666 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:22:14,666 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:22:14,666 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:22:43,301 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:22:43,302 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:22:43,304 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:22:43,304 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:22:43,304 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:22:43,304 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:22:43,305 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:22:46,278 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:22:46,279 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:22:46,281 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:22:46,281 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:22:46,281 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:22:46,282 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:22:46,282 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:25:47,807 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:25:47,808 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:25:47,810 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:25:47,810 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:25:47,810 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:25:47,810 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:25:47,810 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:25:47,811 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 19:26:11,949 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:26:11,950 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:26:11,952 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:26:11,952 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:26:11,952 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:26:11,952 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:26:11,953 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:26:11,953 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 19:26:11,953 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 19:39:34,983 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 19:39:34,984 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 19:39:34,985 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 19:39:34,985 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 19:39:34,987 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 19:39:34,987 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 19:39:34,987 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 19:39:34,987 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 19:39:34,988 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 19:41:31,083 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 19:41:31,084 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 19:41:31,085 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 19:41:31,085 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 19:41:31,087 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 19:41:31,087 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 19:41:31,088 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 19:41:31,088 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 19:41:31,088 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 19:41:31,094 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-15 19:41:31,095 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-15 19:41:31,095 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-15 19:41:31,095 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-15 19:41:31,096 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-15 19:41:31,096 [main] redis.RedisConnect  - element-6
+INFO    2022-11-15 19:41:31,096 [main] redis.RedisConnect  - element-2
+INFO    2022-11-15 19:41:31,096 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-15 19:41:31,103 [main] redis.RedisConnect  - PONG
+INFO    2022-11-15 19:41:31,103 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:41:31,106 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:41:31,106 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:41:31,106 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:41:31,107 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:41:31,107 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:41:31,107 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:41:31,107 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:41:31,108 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 19:41:31,108 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 19:41:31,111 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:41:31,112 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 19:41:31,113 [main] redis.RedisConnect  - false
+INFO    2022-11-15 19:41:31,113 [main] redis.RedisConnect  - true
+INFO    2022-11-15 19:41:31,113 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:41:31,113 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:41:31,113 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - 去重
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - 去重
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-15 19:41:31,114 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:41:31,117 [main] redis.RedisConnect  - m1
+INFO    2022-11-15 19:41:31,118 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:46:50,313 [main] redis.RedisConnectTest  - START:1668512810312
+INFO    2022-11-15 19:46:50,415 [main] redis.RedisConnectTest  - 1668512810415
+INFO    2022-11-15 19:46:50,432 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 19:46:50,432 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 19:46:50,432 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 19:46:50,433 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 19:46:50,434 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 19:46:50,435 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 19:46:50,435 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 19:46:50,435 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 19:46:50,436 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 19:46:50,441 [main] redis.RedisConnectTest  - 1668512810441
+INFO    2022-11-15 19:46:50,442 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-15 19:46:50,443 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-15 19:46:50,443 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-15 19:46:50,443 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-15 19:46:50,444 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-15 19:46:50,444 [main] redis.RedisConnect  - element-6
+INFO    2022-11-15 19:46:50,444 [main] redis.RedisConnect  - element-2
+INFO    2022-11-15 19:46:50,444 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-15 19:46:50,450 [main] redis.RedisConnect  - PONG
+INFO    2022-11-15 19:46:50,451 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:46:50,452 [main] redis.RedisConnectTest  - 1668512810452
+INFO    2022-11-15 19:46:50,454 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:46:50,454 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:46:50,454 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:46:50,455 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:46:50,455 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:46:50,455 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:46:50,455 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:46:50,456 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 19:46:50,456 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 19:46:50,457 [main] redis.RedisConnectTest  - 1668512810457
+INFO    2022-11-15 19:46:50,459 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:46:50,460 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - false
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - true
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-15 19:46:50,461 [main] redis.RedisConnect  - 无序
+INFO    2022-11-15 19:46:50,462 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-15 19:46:50,462 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:46:50,462 [main] redis.RedisConnect  - [无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 19:46:50,462 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-15 19:46:50,462 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:46:50,463 [main] redis.RedisConnectTest  - 1668512810463
+INFO    2022-11-15 19:46:50,465 [main] redis.RedisConnect  - m1
+INFO    2022-11-15 19:46:50,465 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:46:50,467 [main] redis.RedisConnectTest  - END:1668512810467
+INFO    2022-11-15 19:57:36,816 [main] redis.RedisConnectTest  - START:1668513456815
+INFO    2022-11-15 19:57:36,928 [main] redis.RedisConnectTest  - testClusterHash-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,928 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.917
+INFO    2022-11-15 19:57:36,945 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 19:57:36,945 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 19:57:36,945 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 19:57:36,946 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 19:57:36,948 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 19:57:36,948 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 19:57:36,948 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 19:57:36,949 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 19:57:36,949 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 19:57:36,955 [main] redis.RedisConnectTest  - testClusterList-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,955 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.955
+INFO    2022-11-15 19:57:36,957 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-15 19:57:36,957 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-15 19:57:36,957 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-15 19:57:36,958 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-15 19:57:36,958 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-15 19:57:36,958 [main] redis.RedisConnect  - element-6
+INFO    2022-11-15 19:57:36,958 [main] redis.RedisConnect  - element-2
+INFO    2022-11-15 19:57:36,959 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-15 19:57:36,960 [main] redis.RedisConnectTest  - delAllKey-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,960 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.960
+INFO    2022-11-15 19:57:36,965 [main] redis.RedisConnectTest  - testRedis-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,965 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.965
+INFO    2022-11-15 19:57:36,965 [main] redis.RedisConnect  - PONG
+INFO    2022-11-15 19:57:36,966 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:57:36,967 [main] redis.RedisConnectTest  - testClusterSortedSet-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,967 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.967
+INFO    2022-11-15 19:57:36,969 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 19:57:36,969 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 19:57:36,970 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 19:57:36,970 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 19:57:36,970 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 19:57:36,970 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 19:57:36,971 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 19:57:36,971 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 19:57:36,971 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 19:57:36,972 [main] redis.RedisConnectTest  - testClusterStringScan-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,972 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.972
+INFO    2022-11-15 19:57:36,975 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:57:36,976 [main] redis.RedisConnectTest  - testClusterSet-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,976 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.976
+INFO    2022-11-15 19:57:36,976 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - false
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - true
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - []
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-15 19:57:36,978 [main] redis.RedisConnect  - 去重
+INFO    2022-11-15 19:57:36,979 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-15 19:57:36,979 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:57:36,979 [main] redis.RedisConnect  - [无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 19:57:36,979 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-15 19:57:36,979 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 19:57:36,980 [main] redis.RedisConnectTest  - testClusterString-START:2022-11-15 19:57:36
+INFO    2022-11-15 19:57:36,980 [main] redis.RedisConnectTest  - 测试：2022-11-15T19:57:36.980
+INFO    2022-11-15 19:57:36,983 [main] redis.RedisConnect  - m1
+INFO    2022-11-15 19:57:36,983 [main] redis.RedisConnect  - 
+INFO    2022-11-15 19:57:36,984 [main] redis.RedisConnectTest  - END:1668513456984
+INFO    2022-11-15 20:00:13,381 [main] redis.RedisConnectTest  - START:1668513613380
+INFO    2022-11-15 20:00:13,397 [main] redis.RedisConnectTest  - testClusterHash-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,397 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.388
+INFO    2022-11-15 20:00:13,413 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 20:00:13,413 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 20:00:13,414 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 20:00:13,414 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 20:00:13,416 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 20:00:13,416 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 20:00:13,416 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 20:00:13,417 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 20:00:13,417 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 20:00:13,422 [main] redis.RedisConnectTest  - testClusterList-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,422 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.422
+INFO    2022-11-15 20:00:13,424 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-15 20:00:13,424 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-15 20:00:13,424 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-15 20:00:13,425 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-15 20:00:13,425 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-15 20:00:13,425 [main] redis.RedisConnect  - element-6
+INFO    2022-11-15 20:00:13,426 [main] redis.RedisConnect  - element-2
+INFO    2022-11-15 20:00:13,426 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-15 20:00:13,427 [main] redis.RedisConnectTest  - testRedis-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,427 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.427
+INFO    2022-11-15 20:00:13,428 [main] redis.RedisConnect  - PONG
+INFO    2022-11-15 20:00:13,428 [main] redis.RedisConnect  - 
+INFO    2022-11-15 20:00:13,429 [main] redis.RedisConnectTest  - testClusterSortedSet-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,429 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.429
+INFO    2022-11-15 20:00:13,432 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 20:00:13,433 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 20:00:13,433 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 20:00:13,433 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 20:00:13,434 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 20:00:13,434 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 20:00:13,434 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 20:00:13,435 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 20:00:13,435 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 20:00:13,436 [main] redis.RedisConnectTest  - testClusterStringScan-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,436 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.436
+INFO    2022-11-15 20:00:13,438 [main] redis.RedisConnect  - [{testStringSet}m1, {testStringSet}m2]
+INFO    2022-11-15 20:00:13,439 [main] redis.RedisConnectTest  - testClusterSet-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,439 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.439
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - false
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - true
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - []
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-15 20:00:13,441 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-15 20:00:13,442 [main] redis.RedisConnect  - 无序
+INFO    2022-11-15 20:00:13,442 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:00:13,442 [main] redis.RedisConnect  - [可以交集，并集，差集, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 20:00:13,442 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-15 20:00:13,443 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:00:13,444 [main] redis.RedisConnectTest  - testClusterString-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,444 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.444
+INFO    2022-11-15 20:00:13,446 [main] redis.RedisConnect  - m1
+INFO    2022-11-15 20:00:13,446 [main] redis.RedisConnect  - 
+INFO    2022-11-15 20:00:13,448 [main] redis.RedisConnectTest  - delAllKey-START:2022-11-15 20:00:13
+INFO    2022-11-15 20:00:13,448 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:00:13.448
+INFO    2022-11-15 20:00:13,450 [main] redis.RedisConnectTest  - END:1668513613450
+INFO    2022-11-15 20:01:36,123 [main] redis.RedisConnectTest  - START:1668513696122
+INFO    2022-11-15 20:01:36,139 [main] redis.RedisConnectTest  - testClusterHash-START:2022-11-15 20:01:36:130
+INFO    2022-11-15 20:01:36,139 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.130
+INFO    2022-11-15 20:01:36,158 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-15 20:01:36,158 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-15 20:01:36,158 [main] redis.RedisConnect  - length:3
+INFO    2022-11-15 20:01:36,158 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-15 20:01:36,160 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-15 20:01:36,160 [main] redis.RedisConnect  - length:5
+INFO    2022-11-15 20:01:36,161 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-15 20:01:36,161 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-15 20:01:36,161 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-15 20:01:36,167 [main] redis.RedisConnectTest  - testClusterList-START:2022-11-15 20:01:36:167
+INFO    2022-11-15 20:01:36,168 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.167
+INFO    2022-11-15 20:01:36,169 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-15 20:01:36,169 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-15 20:01:36,170 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-15 20:01:36,170 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-15 20:01:36,170 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-15 20:01:36,170 [main] redis.RedisConnect  - element-6
+INFO    2022-11-15 20:01:36,171 [main] redis.RedisConnect  - element-2
+INFO    2022-11-15 20:01:36,171 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-15 20:01:36,172 [main] redis.RedisConnectTest  - testRedis-START:2022-11-15 20:01:36:172
+INFO    2022-11-15 20:01:36,172 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.172
+INFO    2022-11-15 20:01:36,173 [main] redis.RedisConnect  - PONG
+INFO    2022-11-15 20:01:36,173 [main] redis.RedisConnect  - 
+INFO    2022-11-15 20:01:36,175 [main] redis.RedisConnectTest  - testClusterSortedSet-START:2022-11-15 20:01:36:175
+INFO    2022-11-15 20:01:36,175 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.175
+INFO    2022-11-15 20:01:36,177 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-15 20:01:36,177 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-15 20:01:36,178 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-15 20:01:36,178 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-15 20:01:36,178 [main] redis.RedisConnect  - card:3
+INFO    2022-11-15 20:01:36,178 [main] redis.RedisConnect  - count:3
+INFO    2022-11-15 20:01:36,178 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-15 20:01:36,179 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-15 20:01:36,179 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-15 20:01:36,180 [main] redis.RedisConnectTest  - testClusterStringScan-START:2022-11-15 20:01:36:180
+INFO    2022-11-15 20:01:36,180 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.180
+INFO    2022-11-15 20:01:36,182 [main] redis.RedisConnect  - []
+INFO    2022-11-15 20:01:36,183 [main] redis.RedisConnectTest  - testClusterSet-START:2022-11-15 20:01:36:183
+INFO    2022-11-15 20:01:36,183 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.183
+INFO    2022-11-15 20:01:36,185 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-15 20:01:36,185 [main] redis.RedisConnect  - false
+INFO    2022-11-15 20:01:36,185 [main] redis.RedisConnect  - true
+INFO    2022-11-15 20:01:36,185 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - []
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - 去重
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:01:36,186 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-15 20:01:36,187 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-15 20:01:36,187 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-15 20:01:36,188 [main] redis.RedisConnectTest  - testClusterString-START:2022-11-15 20:01:36:188
+INFO    2022-11-15 20:01:36,188 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.188
+INFO    2022-11-15 20:01:36,190 [main] redis.RedisConnect  - m1
+INFO    2022-11-15 20:01:36,190 [main] redis.RedisConnect  - 
+INFO    2022-11-15 20:01:36,192 [main] redis.RedisConnectTest  - delAllKey-START:2022-11-15 20:01:36:192
+INFO    2022-11-15 20:01:36,192 [main] redis.RedisConnectTest  - 测试：2022-11-15T20:01:36.192
+INFO    2022-11-15 20:01:36,195 [main] redis.RedisConnectTest  - END:1668513696195
+INFO    2022-11-23 11:53:17,441 [main] redis.RedisConnectTest  - START:1669175597440
+INFO    2022-11-23 11:53:17,476 [main] redis.RedisConnectTest  - delAllKey-------START-------2022-11-23 11:53:17:467
+INFO    2022-11-23 11:53:17,503 [main] redis.RedisConnectTest  - END:1669175597503
+INFO    2022-11-23 11:53:49,507 [main] redis.RedisConnectTest  - START:1669175629506
+INFO    2022-11-23 11:53:49,544 [main] redis.RedisConnectTest  - delAllKey-------START-------2022-11-23 11:53:49:535
+INFO    2022-11-23 11:53:49,564 [main] redis.RedisConnectTest  - END:1669175629564
+INFO    2022-11-23 11:55:50,238 [main] redis.RedisConnectTest  - START:1669175750237
+INFO    2022-11-23 11:55:50,262 [main] redis.RedisConnectTest  - delAllKey-------START-------2022-11-23 11:55:50:253
+INFO    2022-11-23 11:55:50,285 [main] redis.RedisConnectTest  - END:1669175750285
+INFO    2022-11-23 11:59:00,923 [main] redis.RedisConnectTest  - START:1669175940922
+INFO    2022-11-23 11:59:00,938 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:930
+INFO    2022-11-23 11:59:00,940 [main] redis.RedisConnectTest  - testClusterHash
+INFO    2022-11-23 11:59:00,959 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-23 11:59:00,960 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-23 11:59:00,960 [main] redis.RedisConnect  - length:3
+INFO    2022-11-23 11:59:00,961 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-23 11:59:00,963 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-23 11:59:00,964 [main] redis.RedisConnect  - length:5
+INFO    2022-11-23 11:59:00,964 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-23 11:59:00,965 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-23 11:59:00,965 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-23 11:59:00,966 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:00:966
+INFO    2022-11-23 11:59:00,971 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:971
+INFO    2022-11-23 11:59:00,971 [main] redis.RedisConnectTest  - testClusterList
+INFO    2022-11-23 11:59:00,975 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-23 11:59:00,975 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-23 11:59:00,976 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-23 11:59:00,976 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-23 11:59:00,977 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-23 11:59:00,977 [main] redis.RedisConnect  - element-6
+INFO    2022-11-23 11:59:00,977 [main] redis.RedisConnect  - element-2
+INFO    2022-11-23 11:59:00,977 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-23 11:59:00,978 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:00:977
+INFO    2022-11-23 11:59:00,979 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:979
+INFO    2022-11-23 11:59:00,979 [main] redis.RedisConnectTest  - testRedis
+INFO    2022-11-23 11:59:00,980 [main] redis.RedisConnect  - PONG
+INFO    2022-11-23 11:59:00,980 [main] redis.RedisConnect  - 
+INFO    2022-11-23 11:59:00,981 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:00:980
+INFO    2022-11-23 11:59:00,982 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:982
+INFO    2022-11-23 11:59:00,982 [main] redis.RedisConnectTest  - testClusterSortedSet
+INFO    2022-11-23 11:59:00,985 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-23 11:59:00,986 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-23 11:59:00,987 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-23 11:59:00,987 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-23 11:59:00,987 [main] redis.RedisConnect  - card:3
+INFO    2022-11-23 11:59:00,988 [main] redis.RedisConnect  - count:3
+INFO    2022-11-23 11:59:00,989 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-23 11:59:00,989 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-23 11:59:00,990 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-23 11:59:00,990 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:00:990
+INFO    2022-11-23 11:59:00,991 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:991
+INFO    2022-11-23 11:59:00,991 [main] redis.RedisConnectTest  - testClusterStringScan
+INFO    2022-11-23 11:59:00,995 [main] redis.RedisConnect  - []
+INFO    2022-11-23 11:59:00,995 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:00:995
+INFO    2022-11-23 11:59:00,996 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:00:996
+INFO    2022-11-23 11:59:00,996 [main] redis.RedisConnectTest  - testClusterSet
+INFO    2022-11-23 11:59:00,999 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-23 11:59:00,999 [main] redis.RedisConnect  - false
+INFO    2022-11-23 11:59:00,999 [main] redis.RedisConnect  - true
+INFO    2022-11-23 11:59:00,999 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:00,999 [main] redis.RedisConnect  - []
+INFO    2022-11-23 11:59:01,000 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-23 11:59:01,000 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-23 11:59:01,000 [main] redis.RedisConnect  - 去重
+INFO    2022-11-23 11:59:01,000 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:01,000 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-23 11:59:01,001 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-23 11:59:01,001 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:01,001 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:01:001
+INFO    2022-11-23 11:59:01,002 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:01:002
+INFO    2022-11-23 11:59:01,002 [main] redis.RedisConnectTest  - testClusterString
+INFO    2022-11-23 11:59:01,004 [main] redis.RedisConnect  - m1
+INFO    2022-11-23 11:59:01,005 [main] redis.RedisConnect  - 
+INFO    2022-11-23 11:59:01,005 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:01:005
+INFO    2022-11-23 11:59:01,009 [main] redis.RedisConnectTest  - END:1669175941009
+INFO    2022-11-23 11:59:41,976 [main] redis.RedisConnectTest  - START:1669175981975
+INFO    2022-11-23 11:59:41,991 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:41:983
+INFO    2022-11-23 11:59:41,992 [main] redis.RedisConnectTest  - testClusterHash
+INFO    2022-11-23 11:59:42,007 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-23 11:59:42,008 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-23 11:59:42,008 [main] redis.RedisConnect  - length:3
+INFO    2022-11-23 11:59:42,008 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-23 11:59:42,010 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-23 11:59:42,010 [main] redis.RedisConnect  - length:5
+INFO    2022-11-23 11:59:42,011 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-23 11:59:42,011 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-23 11:59:42,011 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-23 11:59:42,013 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:013
+INFO    2022-11-23 11:59:42,017 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:017
+INFO    2022-11-23 11:59:42,018 [main] redis.RedisConnectTest  - testClusterList
+INFO    2022-11-23 11:59:42,020 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-23 11:59:42,021 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-23 11:59:42,021 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-23 11:59:42,021 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-23 11:59:42,022 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-23 11:59:42,022 [main] redis.RedisConnect  - element-6
+INFO    2022-11-23 11:59:42,022 [main] redis.RedisConnect  - element-2
+INFO    2022-11-23 11:59:42,022 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-23 11:59:42,023 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:022
+INFO    2022-11-23 11:59:42,024 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:024
+INFO    2022-11-23 11:59:42,024 [main] redis.RedisConnectTest  - testRedis
+INFO    2022-11-23 11:59:42,024 [main] redis.RedisConnect  - PONG
+INFO    2022-11-23 11:59:42,025 [main] redis.RedisConnect  - 
+INFO    2022-11-23 11:59:42,025 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:025
+INFO    2022-11-23 11:59:42,026 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:026
+INFO    2022-11-23 11:59:42,026 [main] redis.RedisConnectTest  - testClusterSortedSet
+INFO    2022-11-23 11:59:42,028 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-23 11:59:42,029 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-23 11:59:42,030 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-23 11:59:42,030 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-23 11:59:42,030 [main] redis.RedisConnect  - card:3
+INFO    2022-11-23 11:59:42,030 [main] redis.RedisConnect  - count:3
+INFO    2022-11-23 11:59:42,031 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-23 11:59:42,031 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-23 11:59:42,031 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-23 11:59:42,032 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:032
+INFO    2022-11-23 11:59:42,033 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:033
+INFO    2022-11-23 11:59:42,033 [main] redis.RedisConnectTest  - testClusterStringScan
+INFO    2022-11-23 11:59:42,036 [main] redis.RedisConnect  - []
+INFO    2022-11-23 11:59:42,036 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:036
+INFO    2022-11-23 11:59:42,037 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:037
+INFO    2022-11-23 11:59:42,037 [main] redis.RedisConnectTest  - testClusterSet
+INFO    2022-11-23 11:59:42,039 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-23 11:59:42,040 [main] redis.RedisConnect  - false
+INFO    2022-11-23 11:59:42,040 [main] redis.RedisConnect  - true
+INFO    2022-11-23 11:59:42,040 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:42,040 [main] redis.RedisConnect  - []
+INFO    2022-11-23 11:59:42,040 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-23 11:59:42,041 [main] redis.RedisConnect  - 去重
+INFO    2022-11-23 11:59:42,041 [main] redis.RedisConnect  - 对比无重复的两个数据集
+INFO    2022-11-23 11:59:42,041 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:42,041 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 去重]
+INFO    2022-11-23 11:59:42,042 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-23 11:59:42,042 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 11:59:42,042 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:042
+INFO    2022-11-23 11:59:42,043 [main] redis.RedisConnectTest  - -------START-------2022-11-23 11:59:42:043
+INFO    2022-11-23 11:59:42,043 [main] redis.RedisConnectTest  - testClusterString
+INFO    2022-11-23 11:59:42,045 [main] redis.RedisConnect  - m1
+INFO    2022-11-23 11:59:42,046 [main] redis.RedisConnect  - 
+INFO    2022-11-23 11:59:42,046 [main] redis.RedisConnectTest  - -------END-------2022-11-23 11:59:42:046
+INFO    2022-11-23 11:59:42,047 [main] redis.RedisConnectTest  - delAllKey
+INFO    2022-11-23 11:59:42,050 [main] redis.RedisConnectTest  - END:1669175982050
+INFO    2022-11-23 12:00:13,738 [main] redis.RedisConnectTest  - START:1669176013737
+INFO    2022-11-23 12:00:13,752 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:744
+INFO    2022-11-23 12:00:13,753 [main] redis.RedisConnectTest  - testClusterHash
+INFO    2022-11-23 12:00:13,768 [main] redis.RedisConnect  - exist:true
+INFO    2022-11-23 12:00:13,769 [main] redis.RedisConnect  - exist:false
+INFO    2022-11-23 12:00:13,769 [main] redis.RedisConnect  - length:3
+INFO    2022-11-23 12:00:13,769 [main] redis.RedisConnect  - StringLength:1
+INFO    2022-11-23 12:00:13,771 [main] redis.RedisConnect  - multiGet:[1, 2]
+INFO    2022-11-23 12:00:13,771 [main] redis.RedisConnect  - length:5
+INFO    2022-11-23 12:00:13,771 [main] redis.RedisConnect  - keys:[four, one, two, five, three]
+INFO    2022-11-23 12:00:13,772 [main] redis.RedisConnect  - vals:[1, 2, 5, 4, 3]
+INFO    2022-11-23 12:00:13,772 [main] redis.RedisConnect  - all:{two=2, five=5, three=3, four=4, one=1}
+INFO    2022-11-23 12:00:13,774 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.773
+INFO    2022-11-23 12:00:13,778 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:778
+INFO    2022-11-23 12:00:13,778 [main] redis.RedisConnectTest  - testClusterList
+INFO    2022-11-23 12:00:13,779 [main] redis.RedisConnect  - 长度：3
+INFO    2022-11-23 12:00:13,780 [main] redis.RedisConnect  - [element-3, element-2, element-1]
+INFO    2022-11-23 12:00:13,780 [main] redis.RedisConnect  - [element-2, element-1]
+INFO    2022-11-23 12:00:13,780 [main] redis.RedisConnect  - [element-2]
+INFO    2022-11-23 12:00:13,781 [main] redis.RedisConnect  - [element-2, element-4, element-5, element-6]
+INFO    2022-11-23 12:00:13,781 [main] redis.RedisConnect  - element-6
+INFO    2022-11-23 12:00:13,781 [main] redis.RedisConnect  - element-2
+INFO    2022-11-23 12:00:13,781 [main] redis.RedisConnect  - [element-4, element-5]
+INFO    2022-11-23 12:00:13,782 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.782
+INFO    2022-11-23 12:00:13,783 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:783
+INFO    2022-11-23 12:00:13,783 [main] redis.RedisConnectTest  - testRedis
+INFO    2022-11-23 12:00:13,784 [main] redis.RedisConnect  - PONG
+INFO    2022-11-23 12:00:13,784 [main] redis.RedisConnect  - 
+INFO    2022-11-23 12:00:13,784 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.784
+INFO    2022-11-23 12:00:13,785 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:785
+INFO    2022-11-23 12:00:13,785 [main] redis.RedisConnectTest  - testClusterSortedSet
+INFO    2022-11-23 12:00:13,787 [main] redis.RedisConnect  - [one, two, four]
+INFO    2022-11-23 12:00:13,788 [main] redis.RedisConnect  - score:3.0
+INFO    2022-11-23 12:00:13,788 [main] redis.RedisConnect  - incrby:10.0
+INFO    2022-11-23 12:00:13,788 [main] redis.RedisConnect  - score:10.0
+INFO    2022-11-23 12:00:13,788 [main] redis.RedisConnect  - card:3
+INFO    2022-11-23 12:00:13,789 [main] redis.RedisConnect  - count:3
+INFO    2022-11-23 12:00:13,789 [main] redis.RedisConnect  - rank:0
+INFO    2022-11-23 12:00:13,790 [main] redis.RedisConnect  - popmin: element-one; score-1.0
+INFO    2022-11-23 12:00:13,790 [main] redis.RedisConnect  - [two, four]
+INFO    2022-11-23 12:00:13,790 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.790
+INFO    2022-11-23 12:00:13,791 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:791
+INFO    2022-11-23 12:00:13,791 [main] redis.RedisConnectTest  - testClusterStringScan
+INFO    2022-11-23 12:00:13,793 [main] redis.RedisConnect  - []
+INFO    2022-11-23 12:00:13,793 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.793
+INFO    2022-11-23 12:00:13,794 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:794
+INFO    2022-11-23 12:00:13,794 [main] redis.RedisConnectTest  - testClusterSet
+INFO    2022-11-23 12:00:13,796 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集, 去重]
+INFO    2022-11-23 12:00:13,796 [main] redis.RedisConnect  - false
+INFO    2022-11-23 12:00:13,797 [main] redis.RedisConnect  - true
+INFO    2022-11-23 12:00:13,797 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 12:00:13,797 [main] redis.RedisConnect  - []
+INFO    2022-11-23 12:00:13,797 [main] redis.RedisConnect  - [可以交集，并集，差集]
+INFO    2022-11-23 12:00:13,797 [main] redis.RedisConnect  - 可以交集，并集，差集
+INFO    2022-11-23 12:00:13,798 [main] redis.RedisConnect  - 去重
+INFO    2022-11-23 12:00:13,798 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 12:00:13,798 [main] redis.RedisConnect  - [可以交集，并集，差集, 无序, 对比无重复的两个数据集]
+INFO    2022-11-23 12:00:13,798 [main] redis.RedisConnect  - [无序, 去重]
+INFO    2022-11-23 12:00:13,798 [main] redis.RedisConnect  - ------------------
+INFO    2022-11-23 12:00:13,799 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.799
+INFO    2022-11-23 12:00:13,800 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:00:13:800
+INFO    2022-11-23 12:00:13,800 [main] redis.RedisConnectTest  - testClusterString
+INFO    2022-11-23 12:00:13,802 [main] redis.RedisConnect  - m1
+INFO    2022-11-23 12:00:13,802 [main] redis.RedisConnect  - 
+INFO    2022-11-23 12:00:13,803 [main] redis.RedisConnectTest  - -------END-------2022-11-23T12:00:13.803
+INFO    2022-11-23 12:00:13,804 [main] redis.RedisConnectTest  - delAllKey
+INFO    2022-11-23 12:00:13,807 [main] redis.RedisConnectTest  - END:1669176013807
+INFO    2022-11-23 12:06:46,964 [main] redis.RedisConnectTest  - START:1669176406960
+INFO    2022-11-23 12:06:53,187 [main] redis.RedisConnectTest  - -------START-------2022-11-23 12:06:53:179
+INFO    2022-11-23 12:06:53,189 [main] redis.RedisConnectTest  - testClusterHash
