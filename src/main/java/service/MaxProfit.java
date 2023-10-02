@@ -14,9 +14,22 @@ public class MaxProfit {
         return ans;
     }
 
+    public int maxProfit_II(int[] prices) {
+        int ans = 0, cur = prices[0];
+        for (int i = 1; i < prices.length; i++) {
+            if (cur <= prices[i]) {
+                ans += prices[i] - cur;
+            }
+
+            cur = prices[i];
+        }
+
+        return ans;
+    }
+
     public static void main(String[] args) {
-        int[] a = new int[]{6, 7, 2, 8, 1};
+        int[] a = new int[]{7,1,4,4,25};
         MaxProfit profit = new MaxProfit();
-        System.out.println(profit.maxProfit(a));
+        System.out.println(profit.maxProfit_II(a));
     }
 }
