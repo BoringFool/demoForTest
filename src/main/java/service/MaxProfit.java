@@ -128,6 +128,22 @@ public class MaxProfit {
         return dp[prices.length - 1][1];
     }
 
+    public int maxProfit_VI(int[] prices, int fee) {
+        int[][] dp = new int[prices.length][2];
+        dp[0][0] = -prices[0];//第一天买入，收益为负
+        dp[0][1] = 0;
+        dp[1][0] = Math.max(dp[0][0], dp[0][1] - prices[1]);//记录两天内买入的最小花费
+        dp[1][1] = Math.max(dp[0][1], dp[0][0] + prices[1] - fee);//卖出则第一天必须买入，计算所得累计收益。
+
+        for (int i = 2; i < prices.length; i++) {
+            dp[i][0] = Math.max(dp[i - 1][1] - prices[i], dp[i - 1][0]);
+            dp[i][1] = Math.max(dp[i - 1][0] + prices[i] - fee, dp[i - 1][1]);
+        }
+
+        //最有一天的持有无法卖出，必定比最后一天的卖出小，所以不必考虑。
+        return dp[prices.length - 1][1];
+    }
+
     public static void main(String[] args) {
 //        int[] a = new int[]{3, 3, 5, 0, 0, 3, 1, 4}; // 6
         int[] a = new int[]{1, 2, 3, 0, 2}; // 4
