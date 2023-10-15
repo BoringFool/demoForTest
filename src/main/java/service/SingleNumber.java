@@ -27,4 +27,31 @@ public class SingleNumber {
 
         return ans;
     }
+
+    public int[] singleNumber_II(int[] nums) {
+        int total = 0;
+        for (int num : nums) {
+            total ^= num;
+        }
+
+        int diff = 0;
+        //找到和的最低位的1
+        for (int i = 0; i < 32; i++) {
+            if (((total >> i) & 1) == 1) {
+                diff = i;
+                break;
+            }
+        }
+
+        int num1 = 0;
+        //计算出最低位为1的数
+        for (int num : nums) {
+            if (((num >> diff) & 1) == 1) {
+                num1 ^= num;
+            }
+        }
+
+        //num1再异或一次，total就等于num2了
+        return new int[]{num1, total ^ num1};
+    }
 }
