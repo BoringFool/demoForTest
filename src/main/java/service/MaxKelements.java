@@ -34,7 +34,7 @@ public class MaxKElements {
         PriorityQueue<Integer> q = new PriorityQueue<>(new Comparator<Integer>() {
             @Override
             public int compare(Integer o1, Integer o2) {
-                return o2 - o1;
+                return o1 - o2;
             }
         });
 
@@ -43,20 +43,13 @@ public class MaxKElements {
         }
 
         long ans = 0;
+
         while (k > 0 && !q.isEmpty()) {
             k--;
             int val = q.poll();
             ans += val;
             val = (int) Math.ceil((double) val / 3);
-
-            while (!q.isEmpty() && val > q.peek()) {
-                ans += val;
-                k--;
-                val = (int) Math.ceil((double) val / 3);
-            }
-
-            if (val == 0) continue;
-            q.offer(val);
+            q.add(val);
         }
 
         return ans;
